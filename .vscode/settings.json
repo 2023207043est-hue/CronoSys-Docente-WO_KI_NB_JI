@@ -1,0 +1,10 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.debug.settings.vmArgs": "--module-path \"${workspaceFolder}/target/dependency\" --add-modules javafx.controls,javafx.fxml --enable-native-access=ALL-UNNAMED",
+    "workbench.iconTheme": "material-icon-theme"
+    // Si VS Code no detecta tu JDK 21, descomenta y ajusta la ruta:
+    // "java.configuration.runtimes": [
+    //     { "name": "JavaSE-21", "path": "C:\\Program Files\\Java\\jdk-21", "default": true }
+    // ],
+    // "java.jdt.ls.java.home": "C:\\Program Files\\Java\\jdk-21"
+}
